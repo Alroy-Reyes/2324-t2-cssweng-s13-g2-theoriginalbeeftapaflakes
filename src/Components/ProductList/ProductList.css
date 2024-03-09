@@ -49,7 +49,7 @@
 }
 
 .product-title {
-  text-decoration: none; /* Remove underline by default */
+  text-decoration: none; 
 }
 
 .product-title h3 {
@@ -57,5 +57,5 @@
 }
 
 .product-title h3:hover {
-  text-decoration: underline; /* Add underline on hover */
+  text-decoration: underline;
 }
