@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Modal } from 'react-bootstrap';
-import prod from '../../Assets/flakes.png';
+//import prod from '../../Assets/flakes.png';
 import './CartItems.css';
 import addIcon from '../../Assets/add.png';
 import minusIcon from '../../Assets/minus.png';
@@ -8,7 +8,7 @@ import deleteIcon from '../../Assets/delete.png';
 import { Link } from 'react-router-dom';
 import { CARTS_URL, PRODUCT_URL, ORDERS_URL } from '../../API/constants';
 import axiosInstance from '../../API/axiosInstance.js';
-import Cart from '../Views/Cart/Cart.jsx';
+//import Cart from '../Views/Cart/Cart.jsx';
 import { decodeToken } from 'react-jwt';
 
 const CartItems = () => {
